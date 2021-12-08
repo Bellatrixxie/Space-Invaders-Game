@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    font-family: Raleway, Sans-serif;
+    font-size: 120%;
+    text-align: center;
+    color: white;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px #232323;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+  }
+  
+  .grid div {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .shooter {
+    background-color: blue;
+  }
+  
+  .invader {
+    border-radius: 50%;
+    background-color: hsl(270, 100%, 50%);
+  }
+  
+  .boom {
+    background-color: red;
+  }
+  
+  .laser {
+    background-color: yellow;
+  }
+  
